@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/top/order/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/bussiness/i2v/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/work/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/bussiness/auth/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/bussiness/sea/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/bussiness/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/common/message/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/work/crm/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/work/master/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/bussiness/t2v/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/order/payment/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/top/work/hrm/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth" />
+        <module name="admin" />
+        <module name="inventory" />
+        <module name="sea" />
+        <module name="notification" />
+        <module name="oa" />
+        <module name="payment" />
+        <module name="email" />
+        <module name="crm" />
+        <module name="delivery" />
+        <module name="hrm" />
+        <module name="erp" />
+        <module name="im" />
+        <module name="gateway_b" />
+        <module name="gateway_c" />
+        <module name="message" />
+        <module name="i2v" />
+        <module name="accept" />
+        <module name="master" />
+        <module name="ve" />
+        <module name="core" />
+        <module name="management" />
+        <module name="gateway_o" />
+        <module name="t2v" />
+        <module name="guest" />
+        <module name="user" />
+        <module name="gateway_w" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Backend" target="1.8" />
+      <module name="common (1)" target="1.8" />
+      <module name="common (2)" target="1.8" />
+      <module name="Core" target="1.8" />
+      <module name="TopGateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Backend" options="-parameters" />
+      <module name="Core" options="-parameters" />
+      <module name="TopGateway" options="-parameters" />
+      <module name="accept" options="-parameters" />
+      <module name="admin" options="-parameters" />
+      <module name="auth" options="-parameters" />
+      <module name="backend" options="-parameters" />
+      <module name="bussiness" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="common (1)" options="-parameters" />
+      <module name="common (2)" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="crm" options="-parameters" />
+      <module name="delivery" options="-parameters" />
+      <module name="email" options="-parameters" />
+      <module name="erp" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gateway_b" options="-parameters" />
+      <module name="gateway_c" options="-parameters" />
+      <module name="gateway_o" options="-parameters" />
+      <module name="gateway_w" options="-parameters" />
+      <module name="guest" options="-parameters" />
+      <module name="hrm" options="-parameters" />
+      <module name="i2v" options="-parameters" />
+      <module name="im" options="-parameters" />
+      <module name="inventory" options="-parameters" />
+      <module name="management" options="-parameters" />
+      <module name="master" options="-parameters" />
+      <module name="message" options="-parameters" />
+      <module name="notification" options="-parameters" />
+      <module name="oa" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="payment" options="-parameters" />
+      <module name="sea" options="-parameters" />
+      <module name="t2v" options="-parameters" />
+      <module name="top" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="ve" options="-parameters" />
+      <module name="work" options="-parameters" />
+    </option>
+  </component>
+</project>

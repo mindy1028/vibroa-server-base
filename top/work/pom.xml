@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.stio</groupId>
+        <artifactId>top</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>work</artifactId>
+    <packaging>pom</packaging>
+    <name>work</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>guest</module>
+        <module>master</module>
+        <module>hrm</module>
+        <module>crm</module>
+        <module>erp</module>
+        <module>oa</module>
+        <module>im</module>
+        <module>gateway_w</module>
+    </modules>
+</project>
